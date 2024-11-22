@@ -1,3 +1,47 @@
-html{
-    background-color: blueviolet;
+#LogoVDG{
+    width: 25%; 
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.logo{
+    width: 25%;
+}
+
+.menunavegacion{
+    float: right;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menunavegacion { 
+    display: flex; list-style-type: none; 
+    padding: 0; margin: 0; 
+    background-color: #f0f0f0; 
+} 
+.menunavegacion ul li {
+     margin: 0 10px;
+     display: flex;
+} 
+.menunavegacion a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 15px; 
+    display: block; 
+} 
+.menunavegacion .active { 
+    background-color: white; 
+    border-radius: 5px; 
+}
+
+.menunavegacion ul{
+    list-style: none;
 }
