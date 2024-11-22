@@ -9,8 +9,12 @@
     width: 25%;
 }
 
-.menunavegacion{
-    float: right;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /*background: linear-gradient(to bottom, #ffffff, #7f4e8c);*/
+    background-color: #c57ef7;
+    color: #333;
 }
 
 header {
@@ -22,26 +26,86 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.menunavegacion { 
-    display: flex; list-style-type: none; 
-    padding: 0; margin: 0; 
-    background-color: #f0f0f0; 
-} 
-.menunavegacion ul li {
-     margin: 0 10px;
-     display: flex;
-} 
-.menunavegacion a {
-    text-decoration: none; 
-    color: black; 
-    padding: 10px 15px; 
-    display: block; 
-} 
-.menunavegacion .active { 
-    background-color: white; 
-    border-radius: 5px; 
+header .logo {
+    display: flex;
+    align-items: center;
 }
 
-.menunavegacion ul{
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    border: #333 solid 1px;
+    border-radius: 12%;
+    padding: 0.5%;
+    white-space: nowrap;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #7f4e8c;
+}
+
+.cuadrovioleta {
+    width: 100%;
+    background-color: hsl(275, 100%, 41%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#Informacion016{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.contenedor3img {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 10px; /* Espacio entre las imágenes */
+    padding: 20px; /* Espacio alrededor del contenedor */
+    background-color: transparent;
+}
+.contenedor3img img {
+    border: 2px solid #ccc; /* Borde gris claro alrededor de las imágenes */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 22%; /* Ancho de cada imagen */
+    height: auto; /* Mantiene la proporción original */
+}
+
+.cuadronegro{
+    width: 100%;
+    background-color: hsl(275, 94%, 54%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+footer{
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
 }

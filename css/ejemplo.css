@@ -144,3 +144,53 @@ main {
 .logo-circle img {
     height: 60px;
 }
+
+.menunavegacion { 
+    display: flex; list-style-type: none; 
+    padding: 0; margin: 0; 
+    background-color: #f0f0f0; 
+} 
+.menunavegacion ul li {
+     margin: 0 10px;
+     display: flex;
+} 
+.menunavegacion a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 15px; 
+    display: block; 
+} 
+.menunavegacion .active { 
+    background-color: white; 
+    border-radius: 5px; 
+}
+
+.menunavegacion ul{
+    list-style: none;
+    display: inline;
+}
+
+.menunavegacion { 
+    display: flex; list-style-type: none; 
+    padding: 0; margin: 0; 
+    background-color: #f0f0f0; 
+} 
+.menunavegacion ul li {
+     margin: 0 10px;
+     display: flex;
+} 
+.menunavegacion a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 15px; 
+    display: block; 
+} 
+.menunavegacion .active { 
+    background-color: white; 
+    border-radius: 5px; 
+}
+
+.menunavegacion ul{
+    list-style: none;
+    display: inline;
+}
