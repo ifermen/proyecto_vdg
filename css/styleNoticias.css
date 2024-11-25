@@ -1,0 +1,57 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-content img {
+    width: 50%;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+.main-content p {
+    font-size: 18px;
+    text-align: center;
+}
+.sidebar {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.sidebar div {
+    width: 45%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar img {
+    width: 100%;
+    border-radius: 5px;
+}
+.pagination {
+    text-align: center;
+    margin: 20px;
+}
+.pagination a {
+    margin: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.VioGen {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #ccc;
+}
+.footer img {
+    width: 100px;
+    vertical-align: middle;
+}
+.footer p {
+    display: inline;
+    font-size: 14px;
+    margin: 0;
+    vertical-align: middle;
+}
