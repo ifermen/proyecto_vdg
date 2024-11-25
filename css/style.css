@@ -30,7 +30,7 @@ header {
 }
 
 #LogoVDG{
-    width: 25%; 
+    width: 20%; 
     height: auto;
     float: left;
     margin-right: 20px;
@@ -115,6 +115,7 @@ nav ul li a:hover {
     text-align: center;
     font-family: Arial, sans-serif;
 }
+
 #Informacion016{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
