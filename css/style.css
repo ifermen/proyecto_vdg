@@ -1,5 +1,5 @@
 html,body {
-    height: 100%;
+    height: auto;
     margin: 0;
 }
 
@@ -106,45 +106,3 @@ nav ul li a:hover {
     color: #7f4e8c;
 }
 
-.cuadrovioleta {
-    width: 100%;
-    background-color: hsl(275, 100%, 41%);
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-#Informacion016{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-}
-
-.contenedor3img {
-    display: flex;
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    gap: 10px; /* Espacio entre las imágenes */
-    padding: 20px; /* Espacio alrededor del contenedor */
-    background-color: transparent;
-}
-.contenedor3img img {
-    border: 2px solid #ccc; /* Borde gris claro alrededor de las imágenes */
-    border-radius: 5px; /* Bordes redondeados */
-    width: 22%; /* Ancho de cada imagen */
-    height: auto; /* Mantiene la proporción original */
-}
-
-.cuadronegro{
-    width: 100%;
-    background-color: hsl(275, 94%, 54%);
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
-footer{
-    position: fixed;
-    bottom: 0; 
-    width: 100%;
-}
