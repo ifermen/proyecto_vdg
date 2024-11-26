@@ -1,0 +1,23 @@
+.cuadroPuntoVioleta{
+    background-color: white;
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3em;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.qr{
+    border-radius: 100%;
+}
+
+.cuadroFinal{
+    background-color: blueviolet;
+    color: white;
+    padding: 2em;
+    box-sizing: border-box;
+    text-align: center;
+}
