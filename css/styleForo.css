@@ -1,0 +1,61 @@
+.listaPublicaciones {
+    display: flex;
+    flex-direction: column; /* Los <li> se apilan en columna */
+    align-items: center; /* Centra los <li> horizontalmente */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin: 0;
+    padding: 0;
+}
+
+.publicacion {
+    list-style: none;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 1.5em;
+    transition: all 0.3s;
+    width: 90%; /* Ocupa el 90% del ancho del contenedor */
+    padding: 0; /* Elimina el padding del <li> */
+    margin: 10px 0; /* Espaciado entre <li> */
+    box-sizing: border-box;
+}
+
+.publicacion a {
+    display: grid; /* Usa grid layout */
+    grid-template-rows: auto 1fr auto; /* Divide en 3 filas */
+    grid-template-columns: 1fr; /* Una columna */
+    text-decoration: none; /* Elimina estilo de enlace */
+    padding: 10px; /* Espaciado interno */
+    color: inherit; /* Usa el color del contenedor padre */
+}
+
+.usuario {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 2em;
+    margin: 0;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.Fecha {
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: end; /* Alinea a la izquierda */
+    font-size: 0.8em;
+    color: gray;
+    margin: 0;
+}
+
+.publicacion:hover {
+    width: 95%;
+    transition: all 0.3s;
+}

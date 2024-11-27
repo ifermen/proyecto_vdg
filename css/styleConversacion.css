@@ -1,0 +1,144 @@
+header{
+    border-bottom: 1px solid grey;
+}
+
+.tituloConversacion{
+    display: grid;
+    background-color: white;
+    padding: 0.5em;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    position: relative;
+}
+
+.botonVolver{
+    background-color: transparent;
+    border: none;
+    display: flex; /* Facilita el manejo del contenido interno */
+    align-items: center;
+    justify-content: center;
+    width: 3em;
+}
+
+.botonVolver img{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    color: transparent;
+}
+
+.tituloConversacion p{
+    grid-column: 2;
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 0; /* Elimina márgenes adicionales */
+    font-size: 2rem; /* Ajusta el tamaño de fuente si es necesario */
+}
+
+.conversacion {
+    align-items: center; /* Centra los <li> horizontalmente */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.comentario {
+    list-style: none;
+    float: left;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 1.5em;
+    transition: all 0.3s;
+    width: 70%; /* Ocupa el 90% del ancho del contenedor */
+    padding: 1em;
+    margin: 10px 0; /* Espaciado entre <li> */
+    margin-left: 1em;
+    margin-right: 1em;
+    box-sizing: border-box;
+    display: grid; /* Usa grid layout */
+    grid-template-rows: auto 1fr auto; /* Divide en 3 filas */
+    grid-template-columns: 1fr; /* Una columna */
+}
+
+.comentario-autor {
+    list-style: none;
+    float: right;
+    background-color: rgb(241, 219, 255);
+    border: 2px solid grey;
+    border-radius: 1.5em;
+    transition: all 0.3s;
+    width: 70%; /* Ocupa el 90% del ancho del contenedor */
+    padding: 1em;
+    margin: 10px 0; /* Espaciado entre <li> */
+    margin-left: 1em;
+    margin-right: 1em;
+    box-sizing: border-box;
+    display: grid; /* Usa grid layout */
+    grid-template-rows: auto 1fr auto; /* Divide en 3 filas */
+    grid-template-columns: 1fr; /* Una columna */
+}
+
+.usuario {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.textoComentario {
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 2em;
+    margin: 0;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.fecha {
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: end; /* Alinea a la izquierda */
+    font-size: 0.8em;
+    color: gray;
+    margin: 0;
+}
+
+.redactarComentario{
+    width: 100%;
+    display: flex;
+    float: bottom;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    align-items: center;
+    background-color: rgb(55, 55, 55);
+    box-sizing: border-box;
+}
+
+.redactarComentario input{
+    flex-grow: 1;
+    height: 2em;
+    font-size: 2em;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.redactarComentario button{
+    width: 5em;
+    height: 5em;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.redactarComentario button img{
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+}
